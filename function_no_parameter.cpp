@@ -16,3 +16,6 @@ int luasPersegi()
     return panjang * lebar;
 }
 
+void output()
+{
+    cout << "Hasilnya : " << luasPersegi();
